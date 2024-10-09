@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OAuthDotNetCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": "8.0.10"
+        },
+        "runtime": {
+          "OAuthDotNetCore.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/8.0.10": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {
+            "assemblyVersion": "8.0.10.0",
+            "fileVersion": "8.0.1024.46804"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OAuthDotNetCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YivWDtgaC6bQW6N8EdbG7uhENhJwC0UaBx0xGnWpLFSqRc+I1SLrhCpINg0DvvdwSgUWC55z20YwOI7CHyAyJQ==",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/8.0.10",
+      "hashPath": "microsoft.aspnetcore.authentication.microsoftaccount.8.0.10.nupkg.sha512"
+    }
+  }
+}

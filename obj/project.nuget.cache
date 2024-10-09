@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pnJYY/R8xJg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a1788452\\source\\repos\\OAuthDotNetCore\\OAuthDotNetCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a1788452\\.nuget\\packages\\microsoft.aspnetcore.authentication.microsoftaccount\\8.0.10\\microsoft.aspnetcore.authentication.microsoftaccount.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

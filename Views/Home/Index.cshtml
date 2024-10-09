@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h1>Welcome to Your Application!</h1>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h2>Hello, @User.Identity.Name!</h2>
+        <p>We are glad to have you back. Feel free to explore our site.</p>
+    }
+    else
+    {
+        <h2>Welcome, Guest!</h2>
+        <p>Please <a asp-controller="Account" asp-action="Login">log in with your Microsoft account</a> to access all features.</p>
+    }
+
+    <div class="content">
+        <h3>Our Features</h3>
+        <ul>
+            <li>Feature 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Feature 2: Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>
+            <li>Feature 3: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</li>
+        </ul>
+    </div>
+</div>
+
+<style>
+    .container {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+        margin-top: 30px;
+    }
+
+    h2 {
+        color: #4CAF50;
+    }
+</style>

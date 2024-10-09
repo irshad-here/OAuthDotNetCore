@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lNAfIvqODJQKSe7FKve93hAj+N+v/iq9VA6OLZBSrzM=",
+  "Source": "OAuthDotNetCore",
+  "BasePath": "_content/OAuthDotNetCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
